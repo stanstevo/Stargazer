@@ -13,8 +13,8 @@ jobs:
       - image: cimg/base:stable
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
-    environment:
-      JVM_OPTS: -Xmx3200m
+    #environment:
+    #  JVM_OPTS: -Xmx3200m
     steps:
       - checkout
       - restore_cache:
