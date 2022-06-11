@@ -4,7 +4,7 @@ jobs:
     working_directory: ~/code
     docker:
       #- image: cimg/android
-      - image: cimg
+      - image: circleci/android:api-32
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
