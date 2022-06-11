@@ -3,8 +3,8 @@ jobs:
   build:
     working_directory: ~/code
     docker:
-      #- image: cimg/android
-      - image: cimg
+      - image: cimg/android
+      #- image: cimg
       auth:
           username: $user
           password: $password
