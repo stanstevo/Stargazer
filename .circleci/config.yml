@@ -5,6 +5,9 @@ jobs:
     docker:
       #- image: cimg/android
       - image: cimg
+      auth:
+          username: $user
+          password: $password
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
