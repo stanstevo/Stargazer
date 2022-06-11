@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: cimg/android
       #- image: cimg
-      auth:
+        auth:
           username: $user
           password: $password
     environment:
